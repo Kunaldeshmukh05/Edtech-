@@ -1,0 +1,41 @@
+.Nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(6, 6, 6); /* Navbar background color */
+    padding: 10px 20px; /* Padding for the navbar */
+    border-bottom: 2px solid redrgb(188, 69, 69); /* Border bottom for the navbar */
+  }
+  .Nav-image{
+    width: 300px;
+    background-size: cover;
+    height: 100px;
+    background-image: url('./AE.jpg');
+  }
+  .NavBar {
+    margin: 0 10px; /* Adjust spacing between buttons */
+  }
+  
+  .NavBar a {
+    text-decoration: none;
+    color: #fff; /* Text color */
+    padding: 10px 20px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    transition: all 0.3s ease; /* Smooth transition */
+  }
+  
+  .NavBar a:hover {
+    background-color: rgb(188, 69, 69); /* Background color on hover */
+    border-color: rgb(188, 69, 69); /* Border color on hover */
+  }
+  
+  .NavBar a.active {
+    background-color: rgb(188, 69, 69); /* Background color for active button */
+    border-color: rgb(188, 69, 69); /* Border color for active button */
+  }
+  
+  .NavBar a:not(:last-child) {
+    margin-right: 20px; /* Margin between buttons */
+  }
+  

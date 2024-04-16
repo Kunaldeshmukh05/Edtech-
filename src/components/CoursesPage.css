@@ -1,0 +1,75 @@
+/* CoursesPage.css */
+
+/* Container for the courses page */
+.courses-page {
+  padding: 20px;
+}
+
+/* Heading for available courses */
+.courses-page h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Individual course container */
+.course {
+  background-color: rgb(188, , 20);
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 30px;
+}
+
+/* Heading for the course */
+.course h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+/* Description of the course */
+.course p {
+  margin-bottom: 15px;
+}
+
+/* Details section of the course */
+.details {
+  margin-bottom: 15px;
+}
+
+/* Individual detail within the details section */
+.detail {
+  margin-bottom: 10px;
+}
+
+/* Styling for strong tags within details */
+.detail strong {
+  font-weight: bold;
+}
+
+/* Styling for unordered list within details */
+.detail ul {
+  margin-top: 0;
+}
+
+/* Styling for list items within details */
+.detail li {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+/* Button for registering */
+.course button {
+  background-color: rgb(188, 69, 69);
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Hover effect for button */
+.course button:hover {
+  background-color: rgb(188, 69, 69);
+}

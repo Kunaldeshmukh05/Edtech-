@@ -1,0 +1,350 @@
+/* Define custom colors */
+:root {
+  --h1-color: #ff5733; /* Color for h1 */
+  --h2-color: rgb(107, 107, 144); /* Color for h2 */
+  --h3-color: green; /* Color for h3 */
+  --p-color: rgb; /* Color for p */
+}
+
+
+.main-contain{
+  display: flex;
+  text-align: center; /* Vertically center items */
+margin-left:600px ;
+margin-top: 30px;
+color: var(--h3-color); 
+
+}
+ 
+.main-cont{
+  display:flex;
+
+}
+.content-heading{
+  display: flex;
+  margin-left: 150px;
+  margin-top:150px;
+  color: var(--h2-color)
+}
+
+.live {
+  display: flex;
+  background-image: url('./live.jpeg');
+  background-size: cover; /* Adjust as needed */
+  background-position: center; /* Adjust as needed */
+  width: 30%;
+  height: 400px; /* Adjust as needed */
+    margin-top: 30px;
+  margin-left:250px;
+  border-radius: 50px;
+  }
+
+
+.image-container {
+  flex: 1; /* Take up remaining space */
+  display: flex;
+  justify-content: flex-end; /* Align image to the right */
+  align-items: center;
+  width: 50%; /* Set width to 50% */
+}
+
+.course-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 200px; /* Adjust border radius as needed */
+}
+
+.contact-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.icon-container {
+  cursor: pointer;
+  margin: 0 10px;
+  font-size: 24px;
+  color: #666;
+  transition: color 0.3s ease;
+}
+
+.icon-container:hover {
+  color: #333;
+}
+
+.contact-info {
+  margin-top: 20px;
+}
+
+.contact-info p {
+  margin: 5px 0;
+}
+
+/* Styling for headings and paragraph */
+.h1-color {
+  color: var(--h1-color); /* Set color for h1 */
+}
+
+.h2-color {
+  color: var(--h2-color); /* Set color for h2 */
+}
+
+.h3-color {
+  color: var(--h3-color); /* Set color for h3 */
+}
+
+.p-color {
+  color: var(--p-color); /* Set color for p */
+}
+
+.close-indicator {
+  text-align: center;
+  cursor: pointer;
+  margin-top: 20px; /* Adjust margin as needed */
+  border-bottom: 2px solid black; /* Underline effect */
+  width: 100%;
+}
+
+.close-indicator p {
+  display: inline;
+  background-color: white; /* Ensures the underline doesn't extend beyond text */
+  padding: 0 10px; /* Add padding for better visual */
+}
+
+.horizontal-boxes {
+  width: 100%; /* Adjust width to fill container */
+  height: 150px; /* Adjust height as needed */
+  background-color: rgb(119, 119, 189); /* Adjust background color as needed */
+  margin-top: 20px; /* Adjust margin as needed */
+  text-align: center;
+}
+
+.flex-boxes {
+  display: flex;
+  justify-content: space-between; /* Distribute items evenly */
+  margin-top: 20px; /* Adjust margin as needed */
+}
+/* Add hover effect */
+.box:hover {
+  transform: scale(1.1);
+}
+
+/* Add styles for the flex boxes */
+.flex-box {
+  width: 30%; /* Adjust width as needed */
+  height: 400px; /* Adjust height as needed */
+  background-color: rgb(224, 199, 199); /* Adjust background color as needed */
+  text-align: center;
+  border-radius: 20px;
+  margin: 40px;
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease;
+}
+.flex-one {
+  width: 30%; /* Adjust width as needed */
+  height: 400px; /* Adjust height as needed */
+  background-color: rgb(224, 199, 199); /* Adjust background color as needed */
+  text-align: center;
+  border-radius: 20px;
+  margin: 40px;
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease;
+  
+}
+.flex-two {
+  width: 30%; /* Adjust width as needed */
+  height: 400px; /* Adjust height as needed */
+  background-color: rgb(224, 199, 199); /* Adjust background color as needed */
+  text-align: center;
+  border-radius: 20px;
+  margin: 40px;
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease;
+  
+}
+.flex-three {
+  width: 30%; /* Adjust width as needed */
+  height: 400px; /* Adjust height as needed */
+  background-color: rgb(224, 199, 199); /* Adjust background color as needed */
+  text-align: center;
+  border-radius: 20px;
+  margin: 40px;
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease;
+}
+.flex-one:hover {
+  transform: scale(1.1);
+}
+.flex-two:hover {
+  transform: scale(1.1);
+}
+.flex-three:hover {
+  transform: scale(1.1);
+}
+
+/* Add hover effect */
+.flex-box:hover {
+  transform: scale(1.1);
+}
+.underline {
+  width: 100%;
+  height: 2px;
+  background-color: black; /* Adjust color as needed */
+  margin-top: 20px; /* Adjust margin as needed */
+}
+/* Additional styles for the new content */
+.additional-content {
+  text-align: center;
+  margin-top: 20px; /* Adjust margin as needed */
+}
+
+.additional-content h1 {
+  color: var(--h1-color); /* Set color for h1 */
+  font-size: 24px; /* Adjust font size as needed */
+}
+
+.additional-content h2 {
+  color: var(--h2-color); /* Set color for h2 */
+  font-size: 20px; /* Adjust font size as needed */
+}
+
+.additional-content p {
+  color: var(--p-color); /* Set color for p */
+  font-size: 16px; /* Adjust font size as needed */
+}
+
+.additional-content button {
+  width: 120px; /* Adjust width as needed */
+  height: 40px; /* Adjust height as needed */
+  border: none;
+  background-color: #ff5733; /* Adjust background color as needed */
+  color: white;
+  border-radius: 5px;
+  margin-top: 30px; /* Adjust margin as needed */
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.additional-content button:hover {
+  background-color: #e64a19; /* Adjust hover background color as needed */
+}
+.image-container {
+  background-image: url('./mainbar1.jpg');
+  background-size: cover; /* Adjust as needed */
+  background-position: center; /* Adjust as needed */
+  width: 100%;
+  height: 300px; /* Adjust as needed */
+  margin-top: 100px;
+}
+.mentor-box {
+  width: 200px;
+  height: 50px;
+  background-color: rgb(180, 69, 69);
+  border: 2px solid #000;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto; /* Add margin auto to center align */
+  white-space: nowrap; /* Ensure text remains in a single line */
+  top: 10px;
+}
+
+.flex-box {
+  /* Other styles */
+  text-align: center; /* Center align the content */
+  overflow: hidden; /* Hide overflow content */
+}
+.additional-box {
+  background-color: #dabdbd; /* Background color */
+  border: 1px solid #ccc; /* Border */
+  border-radius: 5px; /* Border radius */
+  padding: 10px; /* Padding */
+  margin-top: 10px; /* Margin from the top */
+  height: 100px;
+  width: 300px;
+  align-items: center;
+  margin-left: 90px;
+}
+
+.additional-box h3 {
+  color: #333; /* Heading color */
+}
+
+.additional-box p {
+  color: #666; /* Paragraph text color */
+}
+/* MainBar.css */
+.circle {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-top: 10px;
+}
+
+.circle.aniket {
+  background-image: url('./aniket.jpg');
+  margin-left: 150px;
+}
+
+.circle.yashodeep {
+  background-image: url('./soham.jpg');
+  margin-left: 150px;
+
+}
+
+.circle.shubham{
+  background-image: url('./shubham.jpg');
+  margin-left: 150px;
+}
+
+.circle.vaibhav {
+  background-image: url('./vaibhav.jpg'); 
+  margin-left: 150px;
+}
+.circle.rajiv{
+  background-image: url('./Rajiv.jpg');
+  margin-left: 150px;
+}
+
+.circle.narendra {
+  background-image: url('./narendra.jpg');
+   margin-left: 150px;
+}
+
+.circle.vishal {
+  background-image: url('./vishal.jpg');
+  margin-left: 150px;
+}
+
+.circle.soham {
+  background-image: url('./soham.jpg');
+   margin-left: 150px;
+}
+.AEgroup {
+  background-image: url('./Mainbar2.jpg');
+  background-size: cover; /* Adjust as needed */
+  background-position: center; /* Adjust as needed */
+  width: 50%;
+  height: 400px; /* Adjust as needed */
+    margin-top: 50px;
+  margin-left: 400px;}
+
+

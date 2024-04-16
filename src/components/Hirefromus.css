@@ -1,0 +1,15 @@
+/* Hirefromus.css */
+
+/* Style the list */
+.student-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Style each student box */
+.student-box {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+}

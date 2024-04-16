@@ -1,0 +1,22 @@
+/* FaqsPage.css */
+
+/* Style for the Frequently Asked Questions heading */
+h2 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  /* Style for each question */
+  h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  /* Style for each answer */
+  p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  

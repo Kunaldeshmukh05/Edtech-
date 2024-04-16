@@ -1,24 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import HomePage from './components/home';
+import AboutPage from './components/aboutus';
+import CoursesPage from './components/courses';
+import Profile from './components/profile';
+import Mainbar from './components/MainBar';
+import FaqsPage from "./components/Faqs";
+import HireFromUs from "./components/hirefromus";
+import RegistrationPage from "./components/Registration";
+import SignInPage from "./components/signIn";
 
-function App() {
+
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/about" element={<AboutPage />} />
+        <Route path="/courses" element={<CoursesPage />} />
+        <Route path="/profile" element={<Profile />} />
+        <Route path="/signIn" element={<SignInPage />} />
+        <Route path="/mainbar" element={<Mainbar />} />
+        <Route path="/Faqs" element={<FaqsPage/>} />
+        <Route path="/HireFromUs" element={<HireFromUs/>} />
+        <Route path="/Register" element={<RegistrationPage/>} />
+
+      </Routes>
+    </BrowserRouter>
   );
 }
 

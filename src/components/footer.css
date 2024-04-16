@@ -1,0 +1,39 @@
+/* Footer.css */
+
+.footer {
+  background-color: black;
+  padding: 20px;
+  text-align: center;
+  color: white; /* Set text color to white */
+}
+
+.footer-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-logo img {
+  width: 100px; /* Adjust as needed */
+}
+
+.footer-info {
+  margin-left: 20px;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: white; /* Set link text color to white */
+  margin-right: 10px;
+}
+
+.footer-copyright {
+  margin-top: 20px;
+  font-size: 14px;
+}
+.footer-logo{
+  width: 300px;
+  background-size: cover;
+  height: 100px;
+  background-image: url('./AE.jpg');
+}  
